@@ -156,8 +156,8 @@ public class TextEditor implements ActionListener {
             textArea.copy();
 
         }
-        if(actionEvent.getSource() == paste){
-             textArea.paste();
+        if(actionEvent.getSource() == paste) {
+            textArea.paste();
         }
         if(actionEvent.getSource() == selectAll){
              textArea.selectAll();
